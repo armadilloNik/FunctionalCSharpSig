@@ -1,2 +1,1 @@
-# FunctionalCSharpSig
-Functional Programming via C#  @ Dallas C# Sig
+#Functional Programming via C#  @ Dallas C# Sig
