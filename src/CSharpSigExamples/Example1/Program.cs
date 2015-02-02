@@ -28,8 +28,6 @@ namespace Example1
             var bothResult = both(1, 5);
             Console.WriteLine(bothResult);
             Console.ReadLine();
-
-
         }
 
         static int HigherOrderFunctionAsParameter(int myVerySpecialArgument, Func<int, int> myFunction)
