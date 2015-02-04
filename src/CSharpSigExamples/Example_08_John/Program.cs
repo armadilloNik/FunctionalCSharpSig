@@ -10,6 +10,7 @@ namespace Example_08_John
     {
         static void Main(string[] args)
         {
+            // Changing expression on the fly
         }
     }
 }

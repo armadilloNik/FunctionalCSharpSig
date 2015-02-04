@@ -10,6 +10,8 @@ namespace Example_09_ActivatingSkynet
     {
         static void Main(string[] args)
         {
+            // Tree Optimizer - using memoizing of expressions in tree
+            // Tree Optimizer+ -> gives parallelism
         }
     }
 }

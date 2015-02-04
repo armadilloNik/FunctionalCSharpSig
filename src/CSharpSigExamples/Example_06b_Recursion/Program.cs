@@ -10,6 +10,7 @@ namespace Example_06b_Recursion
     {
         static void Main(string[] args)
         {
+            // show previous example with a stackoverflow exception
         }
     }
 }

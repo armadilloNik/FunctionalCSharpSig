@@ -10,6 +10,11 @@ namespace Example_05_ListComprehension
     {
         static void Main(string[] args)
         {
+            
+            // uses linq
+            // Project Euler
+            // some other fun ones?
+
         }
     }
 }
