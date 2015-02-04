@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Lazy", "Example_Lazy\Example_Lazy.csproj", "{5C80505C-ECBD-4574-B90C-12C64B8E709E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_Memoize", "Example_Memoize\Example_Memoize.csproj", "{08589852-7EEC-4045-A604-5B19FF98E981}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_RecursionAccumulator", "Example_RecursionAccumulator\Example_RecursionAccumulator.csproj", "{8A8DDDCD-E079-468D-B3DB-7337D9E31377}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{5C80505C-ECBD-4574-B90C-12C64B8E709E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5C80505C-ECBD-4574-B90C-12C64B8E709E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5C80505C-ECBD-4574-B90C-12C64B8E709E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08589852-7EEC-4045-A604-5B19FF98E981}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08589852-7EEC-4045-A604-5B19FF98E981}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08589852-7EEC-4045-A604-5B19FF98E981}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08589852-7EEC-4045-A604-5B19FF98E981}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A8DDDCD-E079-468D-B3DB-7337D9E31377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A8DDDCD-E079-468D-B3DB-7337D9E31377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A8DDDCD-E079-468D-B3DB-7337D9E31377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A8DDDCD-E079-468D-B3DB-7337D9E31377}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
