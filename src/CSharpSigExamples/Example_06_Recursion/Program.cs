@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Numerics;
 
 namespace Example_06_Recursion
 {
@@ -10,9 +7,17 @@ namespace Example_06_Recursion
     {
         static void Main(string[] args)
         {
-            // 32-bit normal recursion
-            // show it working
-            
+            var sum = SuperSum(20);
+
+            Console.WriteLine(sum);
+            Console.ReadLine();
+        }
+
+        private static BigInteger SuperSum(BigInteger n)
+        {
+            if (n < 1)
+                return 0;
+            return n + SuperSum(n - 1);
         }
     }
 }

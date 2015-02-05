@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_01_HigherOrder", "Example1\Example_01_HigherOrder.csproj", "{998EF9EA-F295-4BEB-B663-1F2A44F26795}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_01a_HigherOrder", "Example1\Example_01a_HigherOrder.csproj", "{998EF9EA-F295-4BEB-B663-1F2A44F26795}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandbox", "Sandbox\Sandbox.csproj", "{FF89A76E-AF02-4854-92CA-EB483D9045A5}"
 EndProject
@@ -31,11 +31,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_09_John", "Example_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_10_ActivatingSkynet", "Example_09_ActivatingSkynet\Example_10_ActivatingSkynet.csproj", "{2F021C2A-0C1E-4D9C-BD50-420F79F3A54D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_07_TheRoadWellTravelled", "Example_07_TheRoadWellTravelled\Example_07_TheRoadWellTravelled.csproj", "{1DE95E26-106B-47FD-9BE3-082DC13394CD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_07a_TheRoadWellTravelled", "Example_07_TheRoadWellTravelled\Example_07a_TheRoadWellTravelled.csproj", "{1DE95E26-106B-47FD-9BE3-082DC13394CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_06b_Recursion", "Example_06b_Recursion\Example_06b_Recursion.csproj", "{16489957-92E2-45EC-AB51-5C00C845B86B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_06c_Recursion", "Example_06a_RecursionC\Example_06c_Recursion.csproj", "{15849109-3939-4F33-91FD-C745EEC392FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_01b_HigherOrder", "Example_01b_HigherOrder\Example_01b_HigherOrder.csproj", "{0424899A-B76E-4D3D-A25B-DD0CE7D540F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_01c_HigherOrder", "Example_01c_HigherOrder\Example_01c_HigherOrder.csproj", "{EF21E115-DDD1-44B1-B940-64D76FE0056A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_07b_TheRoadWellTravelled", "Example_07b_TheRoadWellTravelled\Example_07b_TheRoadWellTravelled.csproj", "{379FD054-09EB-481E-94BC-7B524F261B73}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +117,18 @@ Global
 		{15849109-3939-4F33-91FD-C745EEC392FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{15849109-3939-4F33-91FD-C745EEC392FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{15849109-3939-4F33-91FD-C745EEC392FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0424899A-B76E-4D3D-A25B-DD0CE7D540F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0424899A-B76E-4D3D-A25B-DD0CE7D540F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0424899A-B76E-4D3D-A25B-DD0CE7D540F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0424899A-B76E-4D3D-A25B-DD0CE7D540F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF21E115-DDD1-44B1-B940-64D76FE0056A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF21E115-DDD1-44B1-B940-64D76FE0056A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF21E115-DDD1-44B1-B940-64D76FE0056A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF21E115-DDD1-44B1-B940-64D76FE0056A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{379FD054-09EB-481E-94BC-7B524F261B73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379FD054-09EB-481E-94BC-7B524F261B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379FD054-09EB-481E-94BC-7B524F261B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379FD054-09EB-481E-94BC-7B524F261B73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

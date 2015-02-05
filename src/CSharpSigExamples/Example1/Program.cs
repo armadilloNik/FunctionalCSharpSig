@@ -10,34 +10,12 @@ namespace Example1
             
             Console.WriteLine(asParameter);
             Console.ReadLine();
-
-            var asReturnValue = HigherOrderFunctionAsReturnValue();
-
-            var result = asReturnValue(1, 5);
-            
-            Console.WriteLine(result);
-            Console.ReadLine();
-
-            var both = HigherOrderFunctionBoth(x => x*x);
-
-            var bothResult = both(1, 5);
-            Console.WriteLine(bothResult);
-            Console.ReadLine();
+         
         }
 
         static int HigherOrderFunctionAsParameter(int myVerySpecialArgument, Func<int, int> myFunction)
         {
             return myFunction(myVerySpecialArgument);
-        }
-
-        static Func<int, int, int> HigherOrderFunctionAsReturnValue()
-        {
-            return (x, y) => x + y;
-        }
-
-        static Func<int, int, int> HigherOrderFunctionBoth(Func<int, int> myFunction)
-        {
-            return (x, y) => myFunction(x) + myFunction(y);
         }
 
     }

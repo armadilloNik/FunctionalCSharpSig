@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Numerics;
 
 namespace Example_06a_RecursionC
 {
@@ -10,10 +7,20 @@ namespace Example_06a_RecursionC
     {
         static void Main(string[] args)
         {
-            // 64 bit
-            // written with a tail call
-            // show it blow up 
-            // show running the release mode succeding
+            // has to be 64 bit Release build!
+            var sum = SuperSumAcc(100000, 0);
+
+            Console.WriteLine(sum);
+            
+        }
+
+
+        // tail call
+        private static BigInteger SuperSumAcc(BigInteger n, BigInteger current)
+        {
+            if (n < 1)
+                return current;
+            return SuperSumAcc(n - 1, current + n);
         }
     }
 }
