@@ -8,9 +8,9 @@ namespace Example_03c_Construction
         {
             //partial application
 
-            Func<int, int> IncrementBy5 = x => Sum(x, 5);
+            Func<int, int> incrementBy5 = x => Sum(x, 5);
 
-            Console.WriteLine(IncrementBy5(1));
+            Console.WriteLine(incrementBy5(1));
 
         }
 

@@ -1,10 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Example_03e_Construction
 {
@@ -14,11 +8,9 @@ namespace Example_03e_Construction
 
         static void Main(string[] args)
         {
-            //Start off here
-            //Func<int, Func<int, int>> curriedIncrementByFactory = x => (y => Sum(x, y));
-
-            //write this
-            Func<int, Func<int, int>> curriedIncrementByFactory = MakeItSpicy<int, int, int>(Sum);
+            Func<int, Func<int, int>> curriedIncrementByFactory = x => (y => Sum(x, y));
+            
+            //Func<int, Func<int, int>> curriedIncrementByFactory = MakeItSpicy<int, int, int>(Sum);
 
             var incrementby10 = curriedIncrementByFactory(10);
 
