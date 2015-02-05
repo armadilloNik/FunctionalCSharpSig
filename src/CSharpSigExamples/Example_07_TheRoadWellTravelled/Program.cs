@@ -15,8 +15,9 @@ namespace Example_07_TheRoadWellTravelled
             PrintExpensiveSum(2,3);
             PrintExpensiveSum(2,3);
             PrintExpensiveSum(2,4);
-            
-            Console.ReadLine();
+
+            Console.WriteLine("Done!");
+            Console.ReadLine(); 
         }
 
         private static int ExpensiveSum(int a, int b)

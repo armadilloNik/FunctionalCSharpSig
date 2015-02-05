@@ -9,14 +9,20 @@ namespace Example_07b_TheRoadWellTravelled
         static void Main(string[] args)
         {
             Console.WriteLine("press a key");
-            Console.ReadLine();
+            Console.ReadKey();
 
             PrintMemoizedSum(2, 3);
             PrintMemoizedSum(1, 5);
             PrintMemoizedSum(2, 3);
             PrintMemoizedSum(2, 3);
+            PrintMemoizedSum(2, 3);
+            PrintMemoizedSum(2, 3);
+            PrintMemoizedSum(2, 3);
+            PrintMemoizedSum(2, 3);
+            PrintMemoizedSum(2, 3);
             PrintMemoizedSum(2, 4);
 
+            Console.WriteLine("Done!");
             Console.ReadLine(); 
         }
 
