@@ -16,7 +16,12 @@ namespace Example_01b_HigherOrder
 
         static Func<int, int, int> HigherOrderFunctionAsReturnValue()
         {
-            return (x, y) => x + y;
+            return Sum; //(x, y) => x + y;
+        }
+
+        private static int Sum(int a, int b)
+        {
+            return a + b;
         }
     }
 }

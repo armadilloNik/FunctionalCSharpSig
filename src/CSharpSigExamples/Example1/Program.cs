@@ -2,19 +2,20 @@
 
 namespace Example1
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static void Main(string[] args)
         {
             var asParameter = HigherOrderFunctionAsParameter(10, x => x*x);
-            
+
             Console.WriteLine(asParameter);
             Console.ReadLine();
-         
+
         }
 
-        static int HigherOrderFunctionAsParameter(int myVerySpecialArgument, Func<int, int> myFunction)
+        private static int HigherOrderFunctionAsParameter(int myVerySpecialArgument, Func<int, int> myFunction)
         {
+            Console.WriteLine("Logged value: {0}", myVerySpecialArgument);
             return myFunction(myVerySpecialArgument);
         }
 
