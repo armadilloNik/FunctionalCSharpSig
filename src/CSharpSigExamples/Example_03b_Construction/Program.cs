@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Example_03b_Construction
 {
@@ -10,7 +6,17 @@ namespace Example_03b_Construction
     {
         static void Main(string[] args)
         {
-            //Composition
+            Console.WriteLine("Composition Example \n");
+
+            Func<int, int> square = x => x*x;
+            Func<int, int> twice = x => x + x;
+
+            Func<int, int> doubleSquare = x => twice(square(x));
+
+            Console.WriteLine(doubleSquare(3));
+
+            Console.ReadLine();
+
         }
     }
 }
