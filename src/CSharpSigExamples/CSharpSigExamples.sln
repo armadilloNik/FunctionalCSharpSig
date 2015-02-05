@@ -17,7 +17,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zConsoleFonts", "ConsoleFon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_02_Purity", "Example_02_Purity\Example_02_Purity.csproj", "{A7D2B75F-6E29-42A5-9CB7-C2E48FFBD282}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_03_Construction", "Exmaple_03_Construction\Example_03_Construction.csproj", "{17FD24EB-1856-4D9F-93BA-C6D89DE8C171}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_03a_Construction", "Exmaple_03_Construction\Example_03a_Construction.csproj", "{17FD24EB-1856-4D9F-93BA-C6D89DE8C171}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_04_CommonLinq", "Example_04_Common\Example_04_CommonLinq.csproj", "{B77FBB61-569A-4F00-B88F-520608970D42}"
 EndProject
@@ -42,6 +42,14 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_01c_HigherOrder", "Example_01c_HigherOrder\Example_01c_HigherOrder.csproj", "{EF21E115-DDD1-44B1-B940-64D76FE0056A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_07b_TheRoadWellTravelled", "Example_07b_TheRoadWellTravelled\Example_07b_TheRoadWellTravelled.csproj", "{379FD054-09EB-481E-94BC-7B524F261B73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_03b_Construction", "Example_03b_Construction\Example_03b_Construction.csproj", "{2F05583D-7E86-434B-B159-E30D61137D94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_03c_Construction", "Example_03c_Construction\Example_03c_Construction.csproj", "{10ADC25F-6063-469A-8CE2-12078C43E801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_03d_Construction", "Example_03d_Construction\Example_03d_Construction.csproj", "{22E571F6-781B-4756-B0D3-435D9E464866}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Example_03e_Construction", "Example_03e_Construction\Example_03e_Construction.csproj", "{173C4F2B-F5BF-447C-A384-5572F111D017}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +137,22 @@ Global
 		{379FD054-09EB-481E-94BC-7B524F261B73}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{379FD054-09EB-481E-94BC-7B524F261B73}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{379FD054-09EB-481E-94BC-7B524F261B73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F05583D-7E86-434B-B159-E30D61137D94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F05583D-7E86-434B-B159-E30D61137D94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F05583D-7E86-434B-B159-E30D61137D94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F05583D-7E86-434B-B159-E30D61137D94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10ADC25F-6063-469A-8CE2-12078C43E801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10ADC25F-6063-469A-8CE2-12078C43E801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10ADC25F-6063-469A-8CE2-12078C43E801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10ADC25F-6063-469A-8CE2-12078C43E801}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E571F6-781B-4756-B0D3-435D9E464866}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E571F6-781B-4756-B0D3-435D9E464866}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E571F6-781B-4756-B0D3-435D9E464866}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E571F6-781B-4756-B0D3-435D9E464866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{173C4F2B-F5BF-447C-A384-5572F111D017}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{173C4F2B-F5BF-447C-A384-5572F111D017}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{173C4F2B-F5BF-447C-A384-5572F111D017}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{173C4F2B-F5BF-447C-A384-5572F111D017}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
